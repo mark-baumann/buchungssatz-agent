@@ -14,6 +14,10 @@ from typing import Optional
 import streamlit as st
 from dotenv import load_dotenv
 
+# sys.path Fix: app/ importiert aus Repo-Root
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+
 load_dotenv("/opt/data/finance-assistant/.env")
 load_dotenv("/opt/data/.env")
 
