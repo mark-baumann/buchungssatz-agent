@@ -1,0 +1,18 @@
+[project]
+name = "finance-assistant"
+version = "0.1.0"
+description = "KI-Buchungssatz-Assistent — PDF-Upload, automatische Buchungssatz-Generierung mit LLM"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "streamlit>=1.40.0,<2",
+    "langchain>=0.3.0,<1",
+    "langchain-openai>=0.2.0,<1",
+    "pymupdf>=1.24.0,<2",
+    "pydantic>=2.0.0,<3",
+    "python-dotenv>=1.0.0,<2",
+    "openai>=1.0.0,<2",
+]
+
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
