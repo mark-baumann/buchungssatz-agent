@@ -11,3 +11,4 @@ wheels/
 wandb_runs/
 checkpoints/
 *.jsonl
+*.pyc
